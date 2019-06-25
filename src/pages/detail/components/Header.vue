@@ -7,7 +7,7 @@
       <router-link to='/'>
         <div class="iconfont header-fixed-back">&#xe624;</div>
       </router-link>
-      景点详情
+      详情
     </div>
   </div>
 </template>
@@ -36,11 +36,11 @@ export default {
       }
     }
   },
-  activated () {
-    window.addEventListener('scroll', this.handleScroll)
+  mounted () {
+    window.addEventListener('scroll', this.handleScroll, true)
   },
   deactivated () {
-    window.removeEventListener('scroll', this.handleScroll)
+    window.removeEventListener('scroll', this.handleScroll, true)
   }
 }
 </script>

@@ -1,30 +1,33 @@
 <template>
-  <div class="header">
-    城市选择
-    <router-link to='/'>
-      <div class="iconfont header-back">&#xe624;</div>
+  <div class="header-fixed">
+    <router-link to='/classify'>
+      <div class="iconfont header-fixed-back">&#xe624;</div>
     </router-link>
+    <p>喜剧</p>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'CityHeader'
+  name: 'JuqingHeader'
 }
 </script>
 
 <style lang="stylus" scoped>
   @import '~styles/varibles.styl'
-  .header
-    position: relative
-    overflow: hidden
+  .header-fixed
+    z-index: 2
+    position: fixed
+    top: 0
+    left: 0
+    right: 0
     height: $headerHeight
     line-height: $headerHeight
     text-align: center
     color: #fff
     background: $bgColor
     font-size: .32rem
-    .header-back
+    .header-fixed-back
       position: absolute
       top: 0
       left: 0
