@@ -1,7 +1,17 @@
 # travel
 
-> A Vue.js project
+首页：
 
+![image](https://github.com/jiangzj1234/-vue-web/blob/master/%E7%95%8C%E9%9D%A2/1.png)
+
+其他：
+
+![image](https://github.com/jiangzj1234/-vue-web/blob/master/%E7%95%8C%E9%9D%A2/2.png)
+![image](https://github.com/jiangzj1234/-vue-web/blob/master/%E7%95%8C%E9%9D%A2/3.png)
+![image](https://github.com/jiangzj1234/-vue-web/blob/master/%E7%95%8C%E9%9D%A2/4.png)
+![image](https://github.com/jiangzj1234/-vue-web/blob/master/%E7%95%8C%E9%9D%A2/5.png)
+![image](https://github.com/jiangzj1234/-vue-web/blob/master/%E7%95%8C%E9%9D%A2/6.png)
+![image](https://github.com/jiangzj1234/-vue-web/blob/master/%E7%95%8C%E9%9D%A2/7.png)
 ## Build Setup
 
 ``` bash
